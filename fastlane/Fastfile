@@ -1,0 +1,3 @@
+lane :test do
+  oclint_json_compilation_database
+end
