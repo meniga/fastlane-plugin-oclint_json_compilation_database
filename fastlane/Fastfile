@@ -1,3 +1,18 @@
 lane :test do
-  oclint_json_compilation_database
+  # Fix needed during building to allow oclint properly read compile_commands.json
+  ENV["LLVM_TARGET_TRIPLE_SUFFIX"] = ""
+
+  scan(
+    clean: true,
+    project: "ExampleApp/ExampleApp.xcodeproj",
+    output_types: "json-compilation-database",
+    use_clang_report_name: true
+  )
+  oclint_json_compilation_database(
+    include: ["ExampleApp/", "ExampleAppTests/"],
+    ignore_exit_status: true,
+    report_type: "pmd",
+    report_path: "ExampleApp/oclint.xml",
+    build_path: "fastlane/test_output"
+  )
 end

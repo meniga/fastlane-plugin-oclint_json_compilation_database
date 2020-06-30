@@ -7,11 +7,11 @@ require 'fastlane/plugin/oclint_json_compilation_database/version'
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-oclint_json_compilation_database'
   spec.version       = Fastlane::OclintJsonCompilationDatabase::VERSION
-  spec.author        = 'Marcin Stepnowski'
-  spec.email         = 'marcin.s@meniga.com'
+  spec.author        = 'Meniga'
+  spec.email         = 'mobile.dev@meniga.com'
 
-  spec.summary       = 'Run OCLint validation with oclint-json-compilation-database and fastlane :dart: :rocket'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-oclint_json_compilation_database"
+  spec.summary       = 'Run OCLint validation with oclint-json-compilation-database and fastlane :dart: :rocket:'
+  spec.homepage      = "https://github.com/meniga/fastlane-plugin-oclint_json_compilation_database"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
