@@ -1,6 +1,8 @@
 # oclint_json_compilation_database plugin
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-oclint_json_compilation_database)
+[![Build Status](https://travis-ci.org/meniga/fastlane-plugin-oclint_json_compilation_database.svg?branch=master)](https://travis-ci.org/meniga/fastlane-plugin-oclint_json_compilation_database)
+[![codecov](https://codecov.io/gh/meniga/fastlane-plugin-oclint_json_compilation_database/branch/master/graph/badge.svg)](https://codecov.io/gh/meniga/fastlane-plugin-oclint_json_compilation_database)
 
 ## Getting Started
 
@@ -12,9 +14,7 @@ fastlane add_plugin oclint_json_compilation_database
 
 ## About oclint_json_compilation_database
 
-Run OCLint validation with oclint-json-compilation-database and fastlane :dart: :rocket
-
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+Run OCLint validation with oclint-json-compilation-database and fastlane :dart: :rocket:
 
 ## Example
 

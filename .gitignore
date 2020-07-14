@@ -11,3 +11,5 @@ fastlane/report.xml
 coverage
 test-results
 vendor
+ExampleApp/ExampleApp.xcodeproj/project.xcworkspace/xcuserdata
+ExampleApp/ExampleApp.xcodeproj/xcuserdata
