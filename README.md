@@ -1,7 +1,7 @@
 # oclint_json_compilation_database plugin
 
 [![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-oclint_json_compilation_database)
-[![Build Status](https://travis-ci.org/meniga/fastlane-plugin-oclint_json_compilation_database.svg?branch=master)](https://travis-ci.org/meniga/fastlane-plugin-oclint_json_compilation_database)
+![Test](https://github.com/meniga/fastlane-plugin-oclint_json_compilation_database/workflows/Test/badge.svg)
 [![codecov](https://codecov.io/gh/meniga/fastlane-plugin-oclint_json_compilation_database/branch/master/graph/badge.svg)](https://codecov.io/gh/meniga/fastlane-plugin-oclint_json_compilation_database)
 
 ## Getting Started
